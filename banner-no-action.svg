@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 1200 260" preserveAspectRatio="none" role="img" aria-labelledby="title desc">
+  <title id="title">I Love Watermelon!</title>
+  <desc id="desc">A watermelon slice banner with centered text and a v1-style white outer border.</desc>
+
+  <defs>
+    <!-- SLICE DOWN -->
+    <g id="slice-down">
+      <polygon points="0,0 300,0 150,260" fill="#ED2E38"/>
+      <polygon points="0,0 300,0 286,24 14,24" fill="#009639"/>
+      <polygon points="14,24 286,24 278,38 22,38" fill="#FFFFFF"/>
+
+      <line x1="14" y1="24" x2="286" y2="24" stroke="#000000" stroke-width="10"/>
+      <line x1="22" y1="38" x2="278" y2="38" stroke="#000000" stroke-width="10"/>
+
+      <g fill="#000000">
+        <path d="M0,-8.5 C4.8,-6.8 6,0 0,8.5 C-6,0 -4.8,-6.8 0,-8.5Z" transform="translate(132 112) rotate(202)"/>
+        <path d="M0,-9 C5.2,-7 6.5,0 0,9 C-6.5,0 -5.2,-7 0,-9Z" transform="translate(150 128) rotate(180)"/>
+        <path d="M0,-8.5 C4.8,-6.8 6,0 0,8.5 C-6,0 -4.8,-6.8 0,-8.5Z" transform="translate(168 112) rotate(158)"/>
+      </g>
+
+      <polygon points="0,0 300,0 150,260" fill="none" stroke="#000000" stroke-width="10" stroke-linejoin="round"/>
+    </g>
+
+    <!-- SLICE UP -->
+    <g id="slice-up">
+      <polygon points="0,260 300,260 150,0" fill="#ED2E38"/>
+      <polygon points="0,260 300,260 286,236 14,236" fill="#009639"/>
+      <polygon points="14,236 286,236 278,222 22,222" fill="#FFFFFF"/>
+
+      <line x1="14" y1="236" x2="286" y2="236" stroke="#000000" stroke-width="10"/>
+      <line x1="22" y1="222" x2="278" y2="222" stroke="#000000" stroke-width="10"/>
+
+      <g fill="#000000">
+        <path d="M0,-8.5 C4.8,-6.8 6,0 0,8.5 C-6,0 -4.8,-6.8 0,-8.5Z" transform="translate(132 148) rotate(-22)"/>
+        <path d="M0,-9 C5.2,-7 6.5,0 0,9 C-6.5,0 -5.2,-7 0,-9Z" transform="translate(150 132) rotate(0)"/>
+        <path d="M0,-8.5 C4.8,-6.8 6,0 0,8.5 C-6,0 -4.8,-6.8 0,-8.5Z" transform="translate(168 148) rotate(22)"/>
+      </g>
+
+      <polygon points="0,260 300,260 150,0" fill="none" stroke="#000000" stroke-width="10" stroke-linejoin="round"/>
+    </g>
+  </defs>
+
+  <g>
+    <use href="#slice-down" x="-150" y="0"/>
+    <use href="#slice-down" x="150" y="0"/>
+    <use href="#slice-down" x="450" y="0"/>
+    <use href="#slice-down" x="750" y="0"/>
+    <use href="#slice-down" x="1050" y="0"/>
+
+    <use href="#slice-up" x="0" y="0"/>
+    <use href="#slice-up" x="300" y="0"/>
+    <use href="#slice-up" x="600" y="0"/>
+    <use href="#slice-up" x="900" y="0"/>
+  </g>
+
+  <rect x="0" y="0" width="1200" height="260" fill="none" stroke="#FFFFFF" stroke-width="12"/>
+  <rect x="0" y="0" width="1200" height="260" fill="none" stroke="#000000" stroke-width="8"/>
+
+  <text x="600" y="130" text-anchor="middle" dominant-baseline="middle" font-family="'Space Grotesk', Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="0" textLength="560" lengthAdjust="spacingAndGlyphs" fill="#FFFFFF" stroke="#000000" stroke-width="6" paint-order="stroke fill">I Love Watermelon!</text>
+</svg>
